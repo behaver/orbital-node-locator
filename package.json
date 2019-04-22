@@ -1,0 +1,39 @@
+{
+  "name": "@behaver/orbital-node-position",
+  "version": "1.0.0",
+  "description": "This pkg is builded for calculating orbital node position.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behaver/orbital-node-position.git"
+  },
+  "keywords": [
+    "orbital",
+    "node"
+  ],
+  "author": "Sanwan, Dong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/behaver/orbital-node-position/issues"
+  },
+  "homepage": "https://github.com/behaver/orbital-node-position#readme",
+  "dependencies": {
+    "@behaver/celestial-coordinate": "^1.8.0",
+    "@behaver/linear-solver": "^1.1.0"
+  },
+  "devDependencies": {
+    "@behaver/jdate": "^2.3.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "files": [
+    "src"
+  ]
+}
