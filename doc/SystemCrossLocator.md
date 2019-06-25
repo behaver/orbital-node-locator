@@ -37,6 +37,10 @@ console.log(res.coord.longitude.getDegrees());
 
 ### 属性
 
+`id` 位置id
+
+`time` 儒略时间对象
+
 `sysA` 天球系统 A
 
 `sysB` 天球系统 B

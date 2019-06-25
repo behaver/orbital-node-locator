@@ -44,9 +44,12 @@ let {
 
 ### 属性
 
-`direction` 交点方向。（升交点：true、降交点：false）
-
-`OrbitCoordProvider` 轨道坐标数据源
+* `id` 位置id
+* `time` 儒略时间对象
+* `orbit` 轨道坐标源
+* `sys` 天球系统
+* `sysOpts` 天球系统配置参数
+* `direction` 相交方向
 
 ### 方法
 
