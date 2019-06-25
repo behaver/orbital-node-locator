@@ -6,7 +6,8 @@
 
 OrbitalNodeLocator 是轨道特殊点位置计算组件库。其中包含有子组件：
 
-* `OrbitalCrossLocator` 轨道交点计算组件
+* [SystemCrossLocator](/doc/SystemCrossLocator.md) 天球系统间交点计算组件
+* [OrbitSystemCrossLocator](/doc/OrbitSystemCrossLocator.md) 天体轨道与天球系统间交点计算组件
 
 ## 安装
 
@@ -16,7 +17,7 @@ OrbitalNodeLocator 是轨道特殊点位置计算组件库。其中包含有子�
 
 安装完成后，调用即可：
 
-`const { OrbitalNodeLocator } = require('@behaver/orbital-node-locator');`
+`const { SystemCrossLocator } = require('@behaver/orbital-node-locator');`
 
 ## 许可证书
 
