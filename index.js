@@ -1,5 +1,6 @@
 'use strict';
 
-const { OrbitalCrossPosition } = require('./src/OrbitalCrossPosition');
+const SystemCrossLocator = require('./src/SystemCrossLocator');
+const OrbitSystemCrossLocator = require('./src/OrbitSystemCrossLocator');
 
-module.exports = { OrbitalCrossPosition };
+module.exports = { SystemCrossLocator, OrbitSystemCrossLocator };
