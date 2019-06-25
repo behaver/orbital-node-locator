@@ -1,6 +1,6 @@
 {
   "name": "@behaver/orbital-node-locator",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This pkg is builded for calculating orbital node position.",
   "main": "index.js",
   "directories": {
